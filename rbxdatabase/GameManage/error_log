@@ -1,0 +1,4 @@
+[14-Feb-2014 23:54:21] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/GameManage/ConnectServer.php on line 20
+[15-Feb-2014 00:22:19] PHP Fatal error:  Call to undefined function  date_timestamp_get() in /home4/rbxdb/public_html/GameManage/ConnectServer.php on line 17
+[15-Feb-2014 00:25:42] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/rbxdb/public_html/GameManage/UpdateServer.php on line 25
+[15-Feb-2014 00:26:20] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/GameManage/UpdateServer.php on line 29

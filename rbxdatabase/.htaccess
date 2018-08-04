@@ -1,0 +1,48 @@
+php_value display_errors On
+php_flag magic_quotes 1
+php_flag magic_quotes_gpc 1
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+AddType application/x-httpd-php54 .php
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+DirectoryIndex landing.php
+#Gzip
+<ifmodule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+#Expire headers
+	<ifModule mod_expires.c>
+		ExpiresActive On
+		ExpiresDefault "access plus 5 seconds"
+		ExpiresByType image/x-icon "access plus 2592000 seconds"
+		ExpiresByType image/jpeg "access plus 2592000 seconds"
+		ExpiresByType image/png "access plus 2592000 seconds"
+		ExpiresByType image/gif "access plus 2592000 seconds"
+		ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+		ExpiresByType text/css "access plus 604800 seconds"
+		ExpiresByType text/javascript "access plus 216000 seconds"
+		ExpiresByType application/javascript "access plus 216000 seconds"
+		ExpiresByType application/x-javascript "access plus 216000 seconds"
+		ExpiresByType text/html "access plus 600 seconds"
+		ExpiresByType application/xhtml+xml "access plus 600 seconds"
+	</ifModule>
+#End Expire headers
+# Where did these go?
+#ErrorDocument 400 /error/badreq.php
+#ErrorDocument 401 /error/deauth.php
+#ErrorDocument 403 /error/deauth.php
+#ErrorDocument 404 /error/genericerr.php
+#ErrorDocument 503 /error/genericerr.php
+RewriteCond %{HTTP_HOST} ^rbxdatabase\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rbxdatabase\.net$
+RewriteRule ^/?$ "http\:\/\/www\.rbxdatabase\.com\/" [R=301,L]

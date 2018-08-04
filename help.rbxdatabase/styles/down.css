@@ -1,0 +1,21 @@
+@import 'fonts.css';
+
+/* Generic Styling */
+body {
+	background-color: #EDEDED;
+	cursor: default;
+	font-family: "Segoe UI Light", SansLight, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 10px 16% 10px 16%;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+#down-msg {
+	font-size: 4em;
+	color: #454545;
+	height: 60px;
+	padding-top: 10%;
+	text-align: center;
+	width: 100%;
+}

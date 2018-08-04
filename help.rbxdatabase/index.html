@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles/documentation.css">
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<title>RBXDatabase - Help</title>
+	</head>
+	<body>
+		<span class="header">Requirements for the API</span><br><br>
+		The rbxdatabase API is very simple to use. A couple things you need to know is that the API can only be used in online servers from server-side scripts. This is a requirement of the roblox ModuleScripts.<br><br>
+		<span class="header">Setting up the API</span><br><br>
+		OK, first thing you need to do is get the API by requiring the module, which can be accomplished like so:<br><br>
+		<div class="code-block">
+			<span class="keyword">local</span> RBXDatabase = require(<span class="number">167431702</span>) <span class="comment">-- Asset id of the rbxdatabase module.</span><br>
+		</div><br>
+		This defines the API as RBXDatabase in the script. This means we just need to access that variable when we want to use the api. You can define the API as anything you like, you don't have to define it as RBXDatabase.<br><br>
+		<span class="header">Connecting to the Website</span><br><br>
+		Now that we have the API defined, we need to connect using our API key. Each script needs to have it's own connection to the API, so each script needs to call the Connect method.<br><br>
+		<div class="code-block">
+			RBXDatabase:Connect(<span class="string">"PUT YOUR API KEY HERE"</span>) <span class="comment">-- Your api key is used for connecting. Pass it as a string to the Connect method.</span><br>
+		</div><br>
+		That's it! You connected to the website. Now you need to save a value.<br><br>
+		<span class="header">Selecting a Data Group</span><br><br>
+		The API has a feature to "separate" data into groups. The SelectDataGroup method will pick the group.<br><br>
+		<div class="code-block">
+			RBXDatabase:SelectDataGroup(<span class="string">"My Data Group"</span>) <span class="comment">-- Now all API actions will be made to this data group.</span><br>
+		</div><br>
+		If you don't use SelectDataGroup, it will default to a blank string("").<br><br>
+		<span class="header">Saving a Value</span><br><br>
+		OK, you connected. Now what? Now you need to learn to save a value by it's key. Rbxdatabase can store pretty much any data type, including roblox-specific ones. You can store values by using the SetValue method.<br><br>
+		<div class="code-block">
+			RBXDatabase:SetValue(<span class="string">"KeyName"</span>, <span class="string">"ValueHere"</span>) <span class="comment">-- Saves the key "KeyName" with the string value "ValueHere".</span><br>
+		</div><br>
+		You just saved a value! Not hard, is it?<br><br>
+		<span class="header">Getting a Value</span><br><br>
+		Now that you stored a value, you probably want to get that value back as well. That is what the GetValue method does.<br><br>
+		<div class="code-block">
+			print(RBXDatabase:GetValue(<span class="string">"KeyName"</span>)) <span class="comment">-- Prints the value of the key "KeyName" into the output, or nil if the key doesn't exist.</span><br>
+		</div><br>
+		Basic enough, right?<br><br>
+		<span class="header">Deleting a Key</span><br><br>
+		What if you don't want to use a key anymore? Delete it using the DeleteValue method.<br><br>
+		<div class="code-block">
+			RBXDatabase:DeleteValue(<span class="string">"KeyName"</span>) <span class="comment">-- Deletes the key "KeyName".</span><br>
+			print(RBXDatabase:GetValue(<span class="string">"KeyName"</span>)) <span class="comment">-- Prints nil into the output because the key doesn't exist anymore.</span><br>
+		</div><br>
+		<span class="header">Updating a Value</span><br><br>
+		If you want to take the old value of a key and append to it, use the UpdateValue method.<br><br>
+		<div class="code-block">
+			RBXDatabase:UpdateValue(<span class="string">"KeyName"</span>,<span class="keyword">function</span>(OldValue) return OldValue+<span class="number">1</span> <span class="keyword">end</span>) <span class="comment">-- Assuming the value of "KeyName" is a number, it takes the old value, adds one, and sets it to that.</span><br>
+		</div><br>
+		UpdateValue takes two variables. The key of the value you want to edit and a function to return the new value of the key.<br><br>
+		<span class="header">Getting all of Your Data</span><br><br>
+		What if you want to get all of your data from the current data group into one big table? Use the GetAllData method.<br><br>
+		<div class="code-block">
+			<span class="keyword">local</span> Data = RBXDatabase:GetAllData()<br><br>
+			<span class="keyword">for</span> i, v <span class="keyword">in</span> pairs(Data) <span class="keyword">do</span> <span class="comment">-- Loops through the return table and prints each of your values and their corrosponding keys.</span><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i, v)<br>
+			<span class="keyword">end</span>
+		</div><br>
+		The return value will be a table of all of your data in the specified data group. Each value is indexed in the table by it's key.<br><br>
+		<span class="header">Disconnecting from the Website</span><br><br>
+		If you want to close the connection to the website, use Disonnect.<br><br>
+		<div class="code-block">
+			RBXDatabase:Disconnect() <span class="comment">-- This closes the connection to the website.</span><br>
+		</div><br>
+		When the Disconnect method is called the connection closed, and all functions but Connect will stop working.<br><br>
+	</body>
+</html>

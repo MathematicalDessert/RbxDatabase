@@ -1,0 +1,18 @@
+@import 'fonts.css';
+@import 'inputs.css';
+
+/* Generic Styling */
+body {
+	background-color: #EDEDED;
+	cursor: default;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding-left: 10px;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

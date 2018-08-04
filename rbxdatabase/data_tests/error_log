@@ -1,0 +1,9 @@
+[15-Feb-2014 08:09:14] PHP Parse error:  syntax error, unexpected ',' in /home4/rbxdb/public_html/data_tests/rocurl.php on line 20
+[15-Feb-2014 08:09:29] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/rbxdb/public_html/data_tests/rocurl.php on line 21
+[15-Feb-2014 08:48:54] PHP Fatal error:  Call to undefined function  urlencoderaw() in /home4/rbxdb/public_html/data_tests/rocurl.php on line 3
+[15-Feb-2014 08:55:17] PHP Warning:  curl_setopt(): supplied argument is not a valid cURL handle resource in /home4/rbxdb/public_html/data_tests/rocurl.php on line 10
+[15-Feb-2014 08:55:17] PHP Warning:  curl_setopt(): supplied argument is not a valid cURL handle resource in /home4/rbxdb/public_html/data_tests/rocurl.php on line 12
+[15-Feb-2014 08:55:17] PHP Warning:  curl_setopt(): supplied argument is not a valid cURL handle resource in /home4/rbxdb/public_html/data_tests/rocurl.php on line 14
+[15-Feb-2014 08:55:17] PHP Warning:  curl_setopt(): supplied argument is not a valid cURL handle resource in /home4/rbxdb/public_html/data_tests/rocurl.php on line 16
+[15-Feb-2014 08:55:17] PHP Warning:  curl_exec(): supplied argument is not a valid cURL handle resource in /home4/rbxdb/public_html/data_tests/rocurl.php on line 18
+[15-Feb-2014 10:48:06] PHP Parse error:  syntax error, unexpected '[' in /home4/rbxdb/public_html/data_tests/rocurl.php on line 16

@@ -1,0 +1,19 @@
+input[type=text], input[type=password], textarea {
+	border: 1px solid #CFCFCF;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+	-webkit-transition: all 0.20s ease-in-out;
+}
+
+input[type=text]:hover, input[type=password]:hover, textarea:hover {
+	border: 1px solid rgba(0, 109, 235, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 109, 235, 0.3);
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	border: 1px solid rgba(0, 109, 235, 0.5);
+	box-shadow: 0px 0px 5px rgba(0, 109, 235, 0.5);
+}

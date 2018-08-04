@@ -1,0 +1,96 @@
+@import 'fonts.css';
+
+a {
+	text-decoration: none;
+}
+
+input[type=text], input[type=password], textarea {
+	border: 2px solid #CFCFCF !important;
+	outline: none !important;
+	padding: 3px 0px 3px 3px;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+	-webkit-transition: all 0.20s ease-in-out;
+}
+
+input[type=text]:hover, input[type=password]:hover, textarea:hover {
+	border-color: #A1A1A1 !important;
+	outline: none !important;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	border-color: #9C9C9C !important;
+	outline: none !important;
+}
+
+a.button {
+	background-color: rgba(168, 168, 168, 0.1);
+	border: solid 1px #A8A8A8;
+	color: #454545;
+	cursor: default;
+	font-size: inherit;
+	height: 24px;
+	line-height: 24px;
+	outline: none !important;
+	padding: 0px 8px 0px 8px;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-user-select: none;
+}
+
+a.button:hover {
+	background-color: rgba(168, 168, 168, 0.3);
+	cursor: default;
+	outline: none !important;
+}
+
+a.mega-button {
+	background-color: rgba(168, 168, 168, 0.4);
+	border: solid 2px #A8A8A8;
+	color: #414141;
+	cursor: default;
+	font-size: 18px;
+	height: 36px;
+	line-height: 36px;
+	outline: none !important;
+	padding: 0px 16px 0px 16px;
+	min-width: 100px;
+	text-align: center;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-user-select: none;
+}
+
+a.mega-button:hover {
+	background-color: rgba(168, 168, 168, 0.6);
+	cursor: default;
+	outline: none !important;
+}
+
+a.button-disabled {
+	background-color: rgba(168, 168, 168, 0.8);
+	border: solid 1px #A8A8A8;
+	color: #454545;
+	cursor: default;
+	font-size: inherit;
+	height: 24px;
+	line-height: 24px;
+	outline: none !important;
+	padding: 0px 8px 0px 8px;
+	-webkit-user-select: none;
+}
+
+::selection {
+	color: #FFFFFF;
+	background-color: #9C9C9C;
+}
+
+::-moz-selection {
+	color: #FFFFFF;
+	background-color: #9C9C9C;
+}

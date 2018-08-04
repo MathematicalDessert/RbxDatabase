@@ -1,0 +1,28 @@
+@import 'fonts.css';
+
+#page-header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #EDEDED;
+	padding: 0% 16% 0% 16%;
+	width: 100%;
+	line-height: 44px;
+	height: 44px;
+}
+
+#page-title {
+	color: #006DEB;
+	font-family: 'Segoe UI Bold', SansBold, sans-serif;
+	font-size: 1.8em;
+}
+
+#page-title-rbx {
+	color: orange;
+}
+
+#page-title-location {
+	color: #BFBFBF;
+	font-family: 'Segoe UI Light', SansLight, sans-serif;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}

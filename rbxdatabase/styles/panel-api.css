@@ -1,0 +1,72 @@
+@import 'fonts.css';
+@import 'inputs.css';
+
+/* Generic Styling */
+body {
+	background-color: #EDEDED;
+	cursor: default;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding-left: 10px;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+a {
+	color: inherit;
+	color: rgb(132, 165, 219);
+	text-decoration: none;
+}
+
+#main-wrap {
+	color: #454545;
+	width: 600px;
+}
+
+#api-key-pr {
+	background-color: inherit !important;
+	border-color: transparent !important;
+	color: #666666;
+	cursor: text !important;
+	font-family: 'Consolas', 'Courier New', 'Helvetica S', sans-serif;
+	width: 230px;
+}
+
+#api-key-pr:hover {
+	background-color: #FFFFFF !important;
+	border-color: #A1A1A1 !important;
+	cursor: text !important;
+}
+
+/* Header Styling */
+.header {
+	color: #000000;
+	font-size: 16px;
+	font-size: 'Segoe UI Semilight', SansLight, sans-serif;
+}
+
+/* Code Styling */
+.code-block {
+	font-family: 'Consolas', 'Courier New', 'Helvetica S', sans-serif;
+	background-color: #F5F5F5;
+	border: dotted 1px #A1A1A1 !important;
+	padding: 5px;
+	position: relative;
+	margin: 5px;
+}
+
+.string {
+	color: #FF4A4A;
+}
+
+.number {
+	color: #007F7F;
+}
+
+.comment {
+	color: green;
+}
+
+.keyword {
+	color: blue;
+}

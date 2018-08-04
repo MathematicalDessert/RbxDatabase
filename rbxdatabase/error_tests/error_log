@@ -1,0 +1,18 @@
+[30-Jan-2014 16:55:42] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home4/rbxdb/public_html/error_tests/list.php on line 17
+[30-Jan-2014 16:55:46] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home4/rbxdb/public_html/error_tests/list.php on line 17
+[30-Jan-2014 16:56:26] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home4/rbxdb/public_html/error_tests/list.php on line 17
+[30-Jan-2014 16:58:32] PHP Fatal error:  Call to undefined function  mysqli_real_ecape_string() in /home4/rbxdb/public_html/error_tests/list.php on line 17
+[31-Jan-2014 10:10:55] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'rbxdb'@'localhost' (using password: NO) in /home4/rbxdb/public_html/error_tests/error.php on line 4
+[31-Jan-2014 10:11:44] PHP Fatal error:  Call to undefined function  gzdecode() in /home4/rbxdb/public_html/error_tests/error.php on line 5
+[31-Jan-2014 10:39:07] PHP Parse error:  syntax error, unexpected '{' in /home4/rbxdb/public_html/error_tests/error.php on line 2
+[31-Jan-2014 10:48:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 6
+[31-Jan-2014 10:50:00] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 6
+[31-Jan-2014 10:51:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 6
+[31-Jan-2014 11:10:10] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 6
+[31-Jan-2014 11:10:57] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 6
+[31-Jan-2014 11:11:52] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 8
+[31-Jan-2014 11:12:55] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/error_tests/error.php on line 8
+[08-Feb-2014 11:55:15] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'rbxdb_user'@'localhost' to database 'rbxdb_main' in /home4/rbxdb/public_html/error_tests/list.php on line 16
+[08-Feb-2014 11:55:15] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/rbxdb/public_html/error_tests/list.php on line 17
+[08-Feb-2014 11:55:15] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/rbxdb/public_html/error_tests/list.php on line 18
+[08-Feb-2014 11:55:15] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home4/rbxdb/public_html/error_tests/list.php on line 18

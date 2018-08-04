@@ -1,0 +1,14 @@
+@import 'rbxdata.css';
+@import 'fonts.css';
+
+div #site-down {
+	padding-top: 20px;
+}
+
+#site-down-message {
+	color: #9E9E9E;
+	font-family: 'Segoe UI Light', SansLight, sans-serif;
+	font-size: 1.4em;
+	text-align: center;
+	width: 100%;
+}

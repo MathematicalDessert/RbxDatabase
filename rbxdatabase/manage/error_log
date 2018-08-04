@@ -1,0 +1,31 @@
+[07-Feb-2014 09:10:07] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/rbxdb/public_html/manage/panel-dbm.php on line 17
+[07-Feb-2014 09:16:20] PHP Fatal error:  Call to undefined function  start_session() in /home4/rbxdb/public_html/manage/panel-dbm.php on line 2
+[07-Feb-2014 16:56:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home4/rbxdb/public_html/manage/panel-dbm.php:7) in /home4/rbxdb/public_html/manage/panel-dbm.php on line 12
+[07-Feb-2014 16:56:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home4/rbxdb/public_html/manage/panel-dbm.php:7) in /home4/rbxdb/public_html/manage/panel-dbm.php on line 12
+[07-Feb-2014 17:54:07] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home4/rbxdb/public_html/manage/panel-dbm.php:7) in /home4/rbxdb/public_html/manage/panel-dbm.php on line 12
+[08-Feb-2014 12:19:45] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[08-Feb-2014 12:19:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[08-Feb-2014 12:20:05] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[08-Feb-2014 12:20:21] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[08-Feb-2014 12:20:50] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[08-Feb-2014 12:21:14] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 63
+[17-Feb-2014 21:36:12] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[17-Feb-2014 21:45:59] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[17-Feb-2014 21:46:14] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[17-Feb-2014 21:46:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[19-Feb-2014 16:37:59] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[19-Feb-2014 16:43:12] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[21-Feb-2014 19:59:27] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[21-Feb-2014 19:59:39] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[01-Mar-2014 13:09:46] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[18-Mar-2014 17:56:57] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[18-Mar-2014 17:57:31] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[21-Mar-2014 16:45:07] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[22-Mar-2014 19:50:33 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[26-Mar-2014 23:31:07 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[05-Apr-2014 09:17:57 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[05-Apr-2014 09:20:29 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47
+[06-Apr-2014 12:07:10 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home4/rbxdb/public_html/manage/panel-dbm.php on line 20
+[06-Apr-2014 18:52:09 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-dbm.php on line 20
+[06-Apr-2014 18:52:51 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-dbm.php on line 20
+[06-Apr-2014 18:58:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/manage/panel-err.php on line 47

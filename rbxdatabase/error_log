@@ -1,0 +1,12 @@
+[06-Feb-2014 19:31:24] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home4/rbxdb/public_html/manage.php on line 53
+[06-Feb-2014 19:32:44] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home4/rbxdb/public_html/manage.php on line 53
+[06-Feb-2014 19:32:53] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home4/rbxdb/public_html/manage.php on line 53
+[06-Feb-2014 19:49:31] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home4/rbxdb/public_html/manage.php on line 53
+[06-Feb-2014 21:28:36] PHP Parse error:  syntax error, unexpected '/' in /home4/rbxdb/public_html/manage.php on line 2
+[07-Feb-2014 07:04:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rbxdb/public_html/panel-api.php:3) in /home4/rbxdb/public_html/panel-api.php on line 5
+[07-Feb-2014 07:06:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rbxdb/public_html/panel-api.php:3) in /home4/rbxdb/public_html/panel-api.php on line 5
+[08-Feb-2014 07:06:18] PHP Fatal error:  Call to undefined function  password_hash() in /home4/rbxdb/public_html/new.php on line 31
+[08-Feb-2014 07:10:02 America/Chicago] PHP Fatal error:  Call to undefined function password_hash() in /home4/rbxdb/public_html/new.php on line 31
+[08-Feb-2014 07:16:10] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home4/rbxdb/public_html/login.php on line 15
+[08-Feb-2014 07:17:59] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home4/rbxdb/public_html/login.php on line 15
+[08-Feb-2014 07:18:31] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home4/rbxdb/public_html/login.php on line 15

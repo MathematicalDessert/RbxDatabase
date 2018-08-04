@@ -1,0 +1,90 @@
+/* Button styling */
+
+@import 'fonts.css';
+
+a.button {
+	background-image: url("../images/generic_fill.png") !important;
+	border: solid 1px #005EC9 !important;
+	border-radius: 2px !important;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 0.9em;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 16px 0px 16px !important;
+    -moz-transition: opacity 0.15s;
+    -ms-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+}
+
+a.button-small-solid {
+	background-color: #007CE8;
+	border: solid 1px #005EC9;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 0.9em;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 16px 0px 16px;
+    -moz-transition: background-color 0.15s;
+    -ms-transition: background-color 0.15s;
+    -o-transition: background-color 0.15s;
+    -webkit-transition: background-color 0.15s;
+    transition: background-color 0.15s;
+}
+
+a.button-disabled {
+	background-image: url("../images/generic_fill_disabled.png");
+	border: solid 1px #005EC9;
+	border-radius: 2px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 0.9em;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 16px 0px 16px;
+}
+
+a.button-small {
+	background-image: url("../images/generic_fill.png");
+	border: solid 1px #005EC9;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Segoe UI", SansRegular, sans-serif;
+	font-size: 0.8em;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 16px 0px 16px;
+    -moz-transition: opacity 0.15s;
+    -ms-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+}
+
+a.button:hover, a.button-small:hover {
+	opacity: 0.85;
+}
+
+a.button-small-solid:hover {
+	background-color: #1B92FA;
+}
+
+.register-btn-pos {
+	bottom: 8px;
+	position: absolute;
+	right: 85px;
+}
+
+.verify-btn-pos {
+	position: relative;
+}

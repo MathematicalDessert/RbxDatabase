@@ -1,0 +1,52 @@
+@import 'fonts.css';
+
+input[type=text], input[type=password], textarea {
+	border: 1px solid #CFCFCF !important;
+	outline: none !important;
+	padding: 3px 0px 3px 3px;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+	-webkit-transition: all 0.20s ease-in-out;
+}
+
+input[type=text]:hover, input[type=password]:hover, textarea:hover {
+	border-color: #A1A1A1 !important;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	border-color: #9C9C9C !important;
+}
+
+a.button {
+	background-color: rgba(168, 168, 168, 0.1);
+	border: solid 1px #A8A8A8;
+	color: #454545;
+	cursor: default;
+	font-size: inherit;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 8px 0px 8px;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+	-webkit-user-select: none;
+}
+
+a.button:hover {
+	background-color: rgba(168, 168, 168, 0.3);
+	cursor: default;
+}
+
+a.button-disabled {
+	background-color: rgba(168, 168, 168, 0.8);
+	border: solid 1px #A8A8A8;
+	color: #454545;
+	cursor: default;
+	font-size: inherit;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 8px 0px 8px;
+	-webkit-user-select: none;
+}

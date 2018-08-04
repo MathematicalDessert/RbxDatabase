@@ -1,0 +1,39 @@
+@font-face {
+    font-family: SansItalic;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sansitalitcs.eot');
+    src: url('../fonts/sansitalitcs.eot?#iefix') format('embedded-opentype'), url('../fonts/sansitalitcs.woff') format('woff'), url('../fonts/sansitalitcs.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SansLight;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sanslight.eot');
+    src: url('../fonts/sanslight.eot?#iefix') format('embedded-opentype'), url('../fonts/sanslight.woff') format('woff'), url('../fonts/sanslight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SansRegular;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sansreg.eot');
+    src: url('../fonts/sansreg.eot?#iefix') format('embedded-opentype'), url('../fonts/sansreg.woff') format('woff'), url('../fonts/sansreg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SansSemi;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sanssemi.eot');
+    src: url('../fonts/sanssemi.eot?#iefix') format('embedded-opentype'), url('../fonts/sanssemi.woff') format('woff'), url('../fonts/sanssemi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SansBold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sansbold.eot');
+    src: url('../fonts/sansbold.eot?#iefix') format('embedded-opentype'), url('../fonts/sansbold.woff') format('woff'), url('../fonts/sansbold.ttf') format('truetype');
+}

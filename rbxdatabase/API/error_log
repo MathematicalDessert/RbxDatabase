@@ -1,0 +1,20 @@
+[17-Mar-2014 19:51:01] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/API/set.php on line 5
+[17-Mar-2014 19:55:28] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'rbxdb_user'@'localhost' to database 'rbxdb_main' in /home4/rbxdb/public_html/API/libs/internal.php on line 13
+[17-Mar-2014 19:55:28] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home4/rbxdb/public_html/API/libs/internal.php on line 14
+[17-Mar-2014 19:55:28] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home4/rbxdb/public_html/API/libs/internal.php on line 15
+[17-Mar-2014 19:55:28] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home4/rbxdb/public_html/API/libs/internal.php on line 15
+[17-Mar-2014 19:59:20] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/API/libs/internal.php on line 32
+[17-Mar-2014 20:13:49] PHP Parse error:  syntax error, unexpected T_IF in /home4/rbxdb/public_html/API/libs/internal.php on line 33
+[17-Mar-2014 20:14:44] PHP Parse error:  syntax error, unexpected T_IF in /home4/rbxdb/public_html/API/libs/internal.php on line 33
+[17-Mar-2014 20:33:18] PHP Parse error:  syntax error, unexpected T_LIST in /home4/rbxdb/public_html/API/updateget.php on line 11
+[17-Mar-2014 20:35:31] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/rbxdb/public_html/API/updateget.php on line 5
+[17-Mar-2014 20:40:30] PHP Fatal error:  Call to undefined function  mysqli_real_ecape_string() in /home4/rbxdb/public_html/API/libs/internal.php on line 58
+[17-Mar-2014 20:41:16] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/API/libs/internal.php on line 61
+[17-Mar-2014 20:42:05] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home4/rbxdb/public_html/API/libs/internal.php on line 61
+[17-Mar-2014 20:48:26] PHP Warning:  Missing argument 4 for SetData(), called in /home4/rbxdb/public_html/API/updateset.php on line 7 and defined in /home4/rbxdb/public_html/API/libs/internal.php on line 25
+[17-Mar-2014 20:50:51] PHP Warning:  Missing argument 4 for SetData(), called in /home4/rbxdb/public_html/API/updateset.php on line 7 and defined in /home4/rbxdb/public_html/API/libs/internal.php on line 25
+[22-Mar-2014 09:56:58 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/rbxdb/public_html/API/libs/internal.php on line 0
+[22-Mar-2014 10:03:47 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, array given in /home4/rbxdb/public_html/API/libs/internal.php on line 38
+[06-Apr-2014 10:21:56 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 2 given in /home4/rbxdb/public_html/API/libs/internal.php on line 124
+[06-Apr-2014 10:22:07 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 2 given in /home4/rbxdb/public_html/API/libs/internal.php on line 124
+[06-Apr-2014 12:20:16 America/Chicago] PHP Fatal error:  Call to undefined function GetUsernameFromKey() in /home4/rbxdb/public_html/API/get.php on line 5

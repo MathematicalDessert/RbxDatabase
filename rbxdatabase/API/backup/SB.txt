@@ -1,0 +1,62 @@
+
+local Rope = Instance.new("Model",Workspace)
+Rope.Name = "Rope"
+local LastLink = nil
+local Size = 2
+
+function MarkPoints(Origin,...)
+	for i,v in pairs({...}) do
+		local p = Instance.new("Part",Rope)
+		p.FormFactor = "Custom"
+		p.Size = Vector3.new(0.5,0.5,0.5)
+		p.Anchored = true
+		p.CFrame = Origin+v
+		p.Name = i
+	end
+end
+
+function AddLinks(Amount)
+	for i = 1,Amount or 1 do
+		local Link = Instance.new("Part",Rope)
+		Link.Name = i
+		Link.FormFactor = "Custom"
+		Link.Size = Vector3.new(Size,Size,Size)
+		Link.CFrame = CFrame.new(Amount*Size,5,0)
+		--Link.CanCollide = false
+		Link:BreakJoints()
+		local Mesh = Instance.new("SpecialMesh",Link)
+		Mesh.MeshType = "Cylinder"
+		if LastLink then
+			Link.CFrame = LastLink.CFrame-Vector3.new(Size,0,0)
+			local Glue = Instance.new("Glue",Link)
+			Glue.Part0 = LastLink
+			Glue.Part1 = Link
+			Glue.C0 = CFrame.new(-Size,0,0)
+			--[[Glue.F0 = Vector3.new(-Size,-Size,Size)
+			Glue.F1 = Vector3.new(-Size,-Size,-Size)
+			Glue.F2 = Vector3.new(Size,-Size,Size)
+			Glue.F3 = Vector3.new(Size,-Size,-Size)]]
+			--MarkPoints(LastLink.CFrame,Glue.F0,Glue.F1,Glue.F2,Glue.F3)
+			--BLAH()
+		else
+			BP = Instance.new("BodyPosition",Link)
+			BP.maxForce = Vector3.new(50000,50000,50000)
+			BP.position = CFrame.new(Amount*Size,0,0).p
+			BP.D = 25000
+			BP.P = 5000
+			Mesh.MeshType = "Head"
+			local Decal = Instance.new("Decal",Link)
+			Decal.Texture = "jkhkjh"
+		end
+		LastLink = Link
+	end
+end
+
+AddLinks(50)
+
+wait(2)
+
+while true do
+	BP.position = Vector3.new(math.random(-Workspace.Base.Size.X/2+50,Workspace.Base.Size.X/2-50),5,math.random(-Workspace.Base.Size.Z/2+50,Workspace.Base.Size.Z/2-50))
+	wait(5)
+end
