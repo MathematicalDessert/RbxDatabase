@@ -1,2 +1,2 @@
 # RbxDatabase
-Pubic Database API for ROBLOX games
+Public Database API for ROBLOX games
